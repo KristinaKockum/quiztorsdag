@@ -6,7 +6,7 @@
 		<meta name="viewport" content="widht=device-width, initial-scale=1">
 		<title>Välkommen till min quiz-sida!!</title>
 		<link href="/static/css/bootstrap.min.css" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="/static/style.css">
 	</head>
 	<body>
 		<div class="container">
@@ -16,7 +16,9 @@
 		Välkommen och lycka till!</p>
 		<button type="button">Ta mitt quiz!</button>
 		</div>
-
+		{% for quiz in quizzes %}
+			<p>{{ quiz.name }}</p>
+		{% endfor %}
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
