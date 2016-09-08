@@ -9,7 +9,7 @@ def question(request):
 	return render(request, "quiz/question.html")
 
 def completed(request):
-	return render(request, "quiz/result.html")
+	return render(request, "quiz/results.html")
 
 			
 
