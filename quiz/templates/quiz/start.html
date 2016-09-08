@@ -11,14 +11,17 @@
 	<body>
 		<div class="container">
 		<h1>Vill du svara på mitt quiz?</h1><br>
+		{% for quiz in quizzes %}
+		<p>{{ quiz.name }}</p>
+		{% endfor %}
+		
 		<p>Här kan du klicka dig vidare för att svara på några frågor som jag har gjort.
 		<br> 
 		Välkommen och lycka till!</p>
+
 		<button type="button">Ta mitt quiz!</button>
 		</div>
-		{% for quiz in quizzes %}
-			<p>{{ quiz.name }}</p>
-		{% endfor %}
+		
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
