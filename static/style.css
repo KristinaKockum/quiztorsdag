@@ -1,0 +1,22 @@
+body {
+	background-color: red;
+	font: 14pt/1.4 arial;
+	max-width: 600px;
+	margin: 0 auto;
+}
+h1 {
+	color: white;
+	font: 18pt;
+}
+a {
+	color: darkgrey;
+}
+p {
+	padding-bottom: 5px;
+}
+button {
+	background-color: white; 
+	font: arial;
+	font-weight: bold;
+
+}
