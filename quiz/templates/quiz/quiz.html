@@ -14,7 +14,8 @@
 			<p>Det här är ett steg på vägen för att äntigen få svara på några frågor som jag har hittat på. Om du klickar på knappen så kommer du till frågorna.</p>
 			<h1>{{ quiz.name }}</h1>
 			<p>{{ quiz.description }}</p>
-			<button type="button">Svara på frågorna!</button>
+			<button type="button"><a href="{% url 'question_page' quiz_number 1 %}">Svara på frågorna!</a></button>
+			
 		</div>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
