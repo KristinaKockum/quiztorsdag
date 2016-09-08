@@ -12,9 +12,10 @@
 		<div class="container">
 		<h1>Vill du svara på mitt quiz?</h1><br>
 		{% for quiz in quizzes %}
+		<p><a href="{% url 'quiz_page' quiz.quiz_number %}">
 		<p>{{ quiz.name }}</p>
 		{% endfor %}
-		
+
 		<p>Här kan du klicka dig vidare för att svara på några frågor som jag har gjort.
 		<br> 
 		Välkommen och lycka till!</p>
