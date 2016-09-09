@@ -6,17 +6,21 @@ body {
 }
 h1 {
 	color: white;
-	font: 18pt;
+	font: 18pt/1.4 arial;
+	font-weight: bold;
 }
 a {
 	color: darkgrey;
 }
 p {
+	color: white;
+	font: 14pt/1.4 arial;
 	padding-bottom: 5px;
 }
 button {
 	background-color: white; 
 	font: arial;
 	font-weight: bold;
+	font: 14pt/1.4 arial;
 
 }
