@@ -20,9 +20,12 @@ p {
 	max-width: 450px;
 }
 button {
-	background-color: white; 
+	background-color: white;
+	border: none;
+	color: red; 
 	font: arial;
 	font-weight: bold;
-	font: 14pt/1.4 arial;
+	font: 14pt;
+	
 
 }
