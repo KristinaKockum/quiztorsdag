@@ -1,6 +1,7 @@
 body {
 	background-color: red;
 	font: 14pt/1.4 arial;
+	color: white;
 	max-width: 600px;
 	margin: 0 auto;
 }
@@ -16,6 +17,7 @@ p {
 	color: white;
 	font: 14pt/1.4 arial;
 	padding-bottom: 5px;
+	max-width: 450px;
 }
 button {
 	background-color: white; 
